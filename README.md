@@ -10,3 +10,5 @@
 
 [[05] Microservice Architecture](./[05]_마이크로서비스_아키텍쳐/index.md)
 
+[[06] SOA MSA](./[06]_SOA_MSA/index.md)
+
