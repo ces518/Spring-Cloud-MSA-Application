@@ -6,3 +6,5 @@
 
 [[03] 12 Factors](./[03]_12_Factors/index.md)
 
+[[04] Monolithic vs Microservices](./[04]_모놀리틱_마이크로서비스/index.md)
+
