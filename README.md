@@ -12,3 +12,5 @@
 
 [[06] SOA MSA](./[06]_SOA_MSA/index.md)
 
+[[07] MSA 표준 구성 요소](./[07]_MSA_표준_구성요소/index.md)
+
