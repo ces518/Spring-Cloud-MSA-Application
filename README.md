@@ -18,3 +18,5 @@
 
 [[09] Spring Cloud Netflix Eureka](./[09]_Spring_Cloud_Netflix_Eureka/index.md)
 
+[[10] User Service 등록](./[10]_User_Service_등록/index.md)
+
