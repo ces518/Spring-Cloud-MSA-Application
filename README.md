@@ -26,3 +26,5 @@
 
 [[13] Netflix Zuul](./[13]_Netflix_Zuul/index.md)
 
+[[14] Zuul Filter](./[14]_Zuul_Filter/index.md)
+
