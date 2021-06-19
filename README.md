@@ -24,3 +24,5 @@
 
 [[12] API Gateway](./[12]_API_Gateway/index.md)
 
+[[13] Netflix Zuul](./[13]_Netflix_Zuul/index.md)
+
