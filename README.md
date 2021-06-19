@@ -16,3 +16,5 @@
 
 [[08] Spring Cloud 란](./[08]_SpringCloud란/index.md)
 
+[[09] Spring Cloud Netflix Eureka](./[09]_Spring_Cloud_Netflix_Eureka/index.md)
+
