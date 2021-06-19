@@ -22,3 +22,5 @@
 
 [[11] User Service Load Balancer](./[11]_User_Service_Load_Balancer/index.md)
 
+[[12] API Gateway](./[12]_API_Gateway/index.md)
+
