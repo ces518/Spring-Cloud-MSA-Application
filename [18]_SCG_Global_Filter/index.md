@@ -77,3 +77,8 @@ spring:
 #            - AddResponseHeader=second-response, second-response-reader
             - CustomFilter
 ```
+
+
+`Filter 동작 결과`
+
+![Global Filter](./images/GlobalFilter.png)
