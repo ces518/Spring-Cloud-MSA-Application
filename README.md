@@ -34,3 +34,5 @@
 
 [[17] SCG Custom Filter](./[17]_SCG_Custom_Filter/index.md)
 
+[[18] SCG Global Filter](./[18]_SCG_Global_Filter/index.md)
+
