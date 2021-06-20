@@ -36,3 +36,5 @@
 
 [[18] SCG Global Filter](./[18]_SCG_Global_Filter/index.md)
 
+[[19] SCG Eureka](./[19]_SCG_Eureka/index.md)
+
