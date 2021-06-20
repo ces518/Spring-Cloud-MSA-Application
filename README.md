@@ -28,3 +28,5 @@
 
 [[14] Zuul Filter](./[14]_Zuul_Filter/index.md)
 
+[[15] Spring Cloud API Gateway](./[15]_Spring_Cloud_API_Gateway/index.md)
+
