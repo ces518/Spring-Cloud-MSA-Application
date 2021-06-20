@@ -33,6 +33,7 @@ public class CustomFilter extends AbstractGatewayFilterFactory<CustomFilter.Conf
 	}
 }
 ```
+- Lambda 로 구현했지만 실제론 OrderedGatewayFilter 와 같은 구현체를 반환해야 한다.
 
 ```yaml
 spring:
