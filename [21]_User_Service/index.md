@@ -159,3 +159,89 @@ public class UserController {
 	}
 }
 ```
+
+## 사용자 조회 구현
+
+```java
+@Data
+@JsonInclude(JsonInclude.Include.NON_NULL)
+public class ResponseUser {
+	private String email;
+	private String name;
+	private String userId;
+
+	private List<ResponseOrder> orders;
+}
+
+@Data
+public class ResponseOrder {
+	private String productId;
+	private Integer qty;
+	private Integer unitPrice;
+	private Integer totalPrice;
+	private LocalDateTime createdAt;
+}
+
+@Service
+@Transactional(readOnly = true)
+@RequiredArgsConstructor
+public class UserService {
+	private final UserRepository repository;
+	private final PasswordEncoder passwordEncoder;
+	private final ModelMapper mapper;
+
+	@Transactional
+	public UserDto createUser(final UserRequest request) {
+		User entity = mapper.map(request, User.class);
+		entity.setUserId(UUID.randomUUID().toString());
+		entity.setEncryptedPwd(passwordEncoder.encode(request.getPwd()));
+		User savedUser = repository.save(entity);
+		return mapper.map(savedUser, UserDto.class);
+	}
+
+	public UserDto getUserById(String userId) {
+		User user = repository.findByUserId(userId)
+				.orElseThrow(RuntimeException::new);
+		return mapper.map(user, UserDto.class);
+	}
+
+	public Iterable<User> getUsers() {
+		return repository.findAll();
+	}
+}
+
+@RestController
+@RequestMapping("/user-service/users")
+@RequiredArgsConstructor
+public class UserController {
+	private final Environment env;
+	private final UserService userService;
+	private final ModelMapper mapper;
+
+	@GetMapping("/welcome")
+	public String welcome() {
+		return env.getProperty("greeting.message");
+	}
+
+	@PostMapping
+	public ResponseEntity<UserDto> createUser(@RequestBody final UserRequest request) {
+		return ResponseEntity.status(HttpStatus.CREATED).body(userService.createUser(request));
+	}
+
+	@GetMapping
+	public ResponseEntity<List<ResponseUser>> getUsers() {
+		Iterable<User> users = userService.getUsers();
+		List<ResponseUser> result = new ArrayList<>();
+		users.forEach(v -> {
+			result.add(mapper.map(v, ResponseUser.class));
+		});
+		return ResponseEntity.ok(result);
+	}
+
+	@GetMapping("{userId}")
+	public ResponseEntity<ResponseUser> getUser(@PathVariable String userId) {
+		UserDto userDto = userService.getUserById(userId);
+		return ResponseEntity.ok(mapper.map(userDto, ResponseUser.class));
+	}
+}
+```
