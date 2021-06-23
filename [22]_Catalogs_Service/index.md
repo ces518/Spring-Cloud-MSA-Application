@@ -59,6 +59,8 @@ logging:
     me.june.catalogservice: DEBUG
 ```
 
+## 기능 구현
+
 ```java
 @Getter
 @Setter
