@@ -111,3 +111,74 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 > 구현한 filter 와, userDetailsService 를 Security 설정에 추가
 
+## APIGateway 설정 추가
+
+```yaml
+spring:
+  application:
+    name: apigateway-service
+  cloud:
+    gateway:
+      default-filters:
+        - name: GlobalFilter
+          args:
+            baseMessage: Spring Cloud Gateway Global Filter
+            preLogger: true
+            postLogger: true
+      routes:
+        - id: first-service
+          #          uri: http://localhost:8081/
+          uri: lb://MY-FIRST-SERVICE # Discovery-Service 에 등록된 서비스 네임으로 접근
+          predicates:
+            - Path=/first-service/** # http://localhost:8081/first-serivce/** 형태로 그대로 전달됨을 주의..
+          filters:
+            #            - AddRequestHeader=first-request, first-request-header
+            #            - AddResponseHeader=first-response, first-response-reader
+            - CustomFilter
+        - id: second-service
+          #          uri: http://localhost:8082/
+          uri: lb://MY-SECOND-SERVICE
+          predicates:
+            - Path=/second-service/**
+          filters:
+            #            - AddRequestHeader=second-request, second-request-header
+            #            - AddResponseHeader=second-response, second-response-reader
+            - CustomFilter
+        #        - id: user-service
+        #          uri: lb://USER-SERVICE
+        #          predicates:
+        #            - Path=/user-service/**
+        - id: user-service # 로그인 요청
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/user-service/login
+            - Method=POST
+          filters:
+            - RemoveRequestHeader=Cookie # 매번 새로운요청으로 인식하기 위해 Cookie 제거
+            - RewritePath=/user-service/(?<segment>.*), /$\{segment}
+        - id: user-service # 회원가입
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/user-service/users
+            - Method=POST
+          filters:
+            - RemoveRequestHeader=Cookie # 매번 새로운요청으로 인식하기 위해 Cookie 제거
+            - RewritePath=/user-service/(?<segment>.*), /$\{segment}
+        - id: user-service # 로그인/회원가입 이후
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/user-service/**
+            - Method=GET
+          filters:
+            - RemoveRequestHeader=Cookie # 매번 새로운요청으로 인식하기 위해 Cookie 제거
+            - RewritePath=/user-service/(?<segment>.*), /$\{segment}
+        - id: catalog-service
+          uri: lb://CATALOG-SERVICE
+          predicates:
+            - Path=/catalog-service/**
+        - id: order-service
+          uri: lb://ORDER-SERVICE
+          predicates:
+            - Path=/order-service/**
+```
+- spring security 에서 제공하는 end-point 를 사용하기 위해 APIGateway 에서 RewritePath 처리를 해주어야한다.
