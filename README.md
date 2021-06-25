@@ -50,3 +50,5 @@
 
 [[25] User Service Jwt](./[25]_User_Service_Jwt/index.md)
 
+[[26] API Gateway AuthorizationHeaderFilter](./[26]_API_Gateway_AuthorizationHeaderFilter/index.md)
+
