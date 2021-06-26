@@ -54,3 +54,5 @@
 
 [[27] Spring Cloud Config](./[27]_Spring_Cloud_Config/index.md)
 
+[[28] Spring Cloud Config User Service](./[28]_Spring_Cloud_Config_User_Service/index.md)
+
