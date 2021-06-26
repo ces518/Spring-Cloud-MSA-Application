@@ -47,5 +47,3 @@ H
 [19]_SCG_Eureka/index.md,c/d/cdcedc57fffeee15348fc9db8a0e36d318dd2d95
 P
  [24]_User_Service_Login/index.md,c/4/c42ac3ca04f3705fe7a781258c4800da7740630b
-7
-pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec

@@ -58,3 +58,5 @@
 
 [[29] Spring Cloud Config Profiles](./[29]_Spring_Cloud_Config_Profiles/index.md)
 
+[[30] Spring Cloud Config Native](./[30]_Spring_Cloud_Config_Native/index.md)
+
