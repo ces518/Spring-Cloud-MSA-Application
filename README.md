@@ -52,3 +52,5 @@
 
 [[26] API Gateway AuthorizationHeaderFilter](./[26]_API_Gateway_AuthorizationHeaderFilter/index.md)
 
+[[27] Spring Cloud Config](./[27]_Spring_Cloud_Config/index.md)
+
