@@ -60,3 +60,5 @@
 
 [[30] Spring Cloud Config Native](./[30]_Spring_Cloud_Config_Native/index.md)
 
+[[31] Spring Cloud Bus](./[31]_Spring_Cloud_Bus/index.md)
+

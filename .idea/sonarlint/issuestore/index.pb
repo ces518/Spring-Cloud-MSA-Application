@@ -47,3 +47,15 @@ H
 [19]_SCG_Eureka/index.md,c/d/cdcedc57fffeee15348fc9db8a0e36d318dd2d95
 P
  [24]_User_Service_Login/index.md,c/4/c42ac3ca04f3705fe7a781258c4800da7740630b
+N
+[25]_User_Service_Jwt/index.md,3/a/3a71285cfcc96172d8506e97e1e26413e60e26a5
+c
+3[26]_API_Gateway_AuthorizationHeaderFilter/index.md,b/5/b53c0142e31dc36d8ea6c6a3d79557e4d4623c89
+Q
+![27]_Spring_Cloud_Config/index.md,7/8/78ee10fff33caadefdd0ceca3b690624f9d554b0
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+^
+.[28]_Spring_Cloud_Config_User_Service/index.md,e/4/e471ee6ebb8ebcfd271226a7c32ba50b0729ed82
+Z
+*[29]_Spring_Cloud_Config_Profiles/index.md,d/3/d3bceada9b3ee3703a84fb4e150ddc59cc1fc7e0
