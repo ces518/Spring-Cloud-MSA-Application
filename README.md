@@ -62,3 +62,5 @@
 
 [[31] Spring Cloud Bus](./[31]_Spring_Cloud_Bus/index.md)
 
+[[32] AMQP](./[32]_AMQP/index.md)
+
