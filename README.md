@@ -74,3 +74,5 @@
 
 [[37]_RestTemplate](./[37]_RestTemplate/index.md)
 
+[[38]_FeignClient](./[38]_FeignClient/index.md)
+
