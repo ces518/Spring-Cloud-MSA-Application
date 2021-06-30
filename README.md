@@ -76,3 +76,5 @@
 
 [[38]_FeignClient](./[38]_FeignClient/index.md)
 
+[[39]_데이터 동기화 문제](./[39]_데이터_동기화_문제/index.md)
+
