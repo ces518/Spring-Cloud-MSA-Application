@@ -70,3 +70,5 @@
 
 [[35] 비대칭키 암호화](./[35]_비대칭키_암호화/index.md)
 
+[[36] Communication Types](./[36]_Communication_Types/index.md)
+
