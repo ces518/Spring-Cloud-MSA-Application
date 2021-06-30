@@ -72,3 +72,5 @@
 
 [[36] Communication Types](./[36]_Communication_Types/index.md)
 
+[[37]_RestTemplate](./[37]_RestTemplate/index.md)
+
