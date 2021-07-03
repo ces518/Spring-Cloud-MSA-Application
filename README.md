@@ -82,3 +82,5 @@
 
 [[41]_Kafka-Connector](./[41]_Kafka_Connector/index.md)
 
+[[42]_Kafka-Source-Connect](./[42]_Kafka_Source_Connect/index.md)
+
