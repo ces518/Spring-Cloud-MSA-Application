@@ -86,3 +86,5 @@
 
 [[43]_Kafka-Sink-Connect](./[43]_Kafka_Sink_Connect/index.md)
 
+[[44]_OrderService CatalogService Kafka Topics](./[44]_OrderService_CatalogService_Kafka_Topics/index.md)
+
