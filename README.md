@@ -80,3 +80,5 @@
 
 [[40]_아파치 카프카](./[40]_아파치_카프카/index.md)
 
+[[41]_Kafka-Connector](./[41]_Kafka_Connector/index.md)
+

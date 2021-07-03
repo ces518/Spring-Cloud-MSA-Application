@@ -45,12 +45,6 @@ I
 [14]_Zuul_Filter/index.md,2/1/210cf9a9b499d1dfa5911e891fc9e704bbaddd4c
 H
 [19]_SCG_Eureka/index.md,c/d/cdcedc57fffeee15348fc9db8a0e36d318dd2d95
-P
- [24]_User_Service_Login/index.md,c/4/c42ac3ca04f3705fe7a781258c4800da7740630b
-N
-[25]_User_Service_Jwt/index.md,3/a/3a71285cfcc96172d8506e97e1e26413e60e26a5
-c
-3[26]_API_Gateway_AuthorizationHeaderFilter/index.md,b/5/b53c0142e31dc36d8ea6c6a3d79557e4d4623c89
 Q
 ![27]_Spring_Cloud_Config/index.md,7/8/78ee10fff33caadefdd0ceca3b690624f9d554b0
 7
@@ -65,3 +59,23 @@ N
 [31]_Spring_Cloud_Bus/index.md,9/a/9af64268acf76c14ba837206f118aba16090d9b1
 T
 $[33]_대칭키_비대칭키/index.md,c/2/c21b6b1ff41cb4ab372e34c012f4f6a51113cc3f
+X
+([39]_데이터_동기화_문제/index.md,2/3/23523b9b031934a359733a28c1f0476ce324d242
+Q
+![34]_대칭키_암호화/index.md,1/1/11bff1554c6e88a8a2ee346ece545b5df1fe6acc
+B
+[32]_AMQP/index.md,7/9/79d52aedba7b3b1f2e9d0514eb5cbee12c624b46
+T
+$[35]_비대칭키_암호화/index.md,3/a/3ac3d90f60120a573b65b4d3e8ce14b61c66a1b7
+J
+[37]_RestTemplate/index.md,6/8/68c506c829b4b972da5faac166616aef0136c9c8
+Q
+![36]_Communication_Types/index.md,5/8/58ec989103eb67d41ce5357ea641018bdc17ee1c
+I
+[38]_FeignClient/index.md,f/9/f93cb2b48ed0997d02e1f00a11f926bcff4e2b46
+c
+3[26]_API_Gateway_AuthorizationHeaderFilter/index.md,b/5/b53c0142e31dc36d8ea6c6a3d79557e4d4623c89
+P
+ [24]_User_Service_Login/index.md,c/4/c42ac3ca04f3705fe7a781258c4800da7740630b
+N
+[25]_User_Service_Jwt/index.md,3/a/3a71285cfcc96172d8506e97e1e26413e60e26a5
