@@ -84,3 +84,5 @@
 
 [[42]_Kafka-Source-Connect](./[42]_Kafka_Source_Connect/index.md)
 
+[[43]_Kafka-Sink-Connect](./[43]_Kafka_Sink_Connect/index.md)
+
