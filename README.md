@@ -76,17 +76,19 @@
 
 [[38]_FeignClient](./[38]_FeignClient/index.md)
 
-[[39]_데이터 동기화 문제](./[39]_데이터_동기화_문제/index.md)
+[[39] 데이터 동기화 문제](./[39]_데이터_동기화_문제/index.md)
 
-[[40]_아파치 카프카](./[40]_아파치_카프카/index.md)
+[[40] 아파치 카프카](./[40]_아파치_카프카/index.md)
 
-[[41]_Kafka-Connector](./[41]_Kafka_Connector/index.md)
+[[41] Kafka-Connector](./[41]_Kafka_Connector/index.md)
 
-[[42]_Kafka-Source-Connect](./[42]_Kafka_Source_Connect/index.md)
+[[42] Kafka-Source-Connect](./[42]_Kafka_Source_Connect/index.md)
 
-[[43]_Kafka-Sink-Connect](./[43]_Kafka_Sink_Connect/index.md)
+[[43] Kafka-Sink-Connect](./[43]_Kafka_Sink_Connect/index.md)
 
-[[44]_OrderService CatalogService Kafka Topics](./[44]_OrderService_CatalogService_Kafka_Topics/index.md)
+[[44] OrderService CatalogService Kafka Topics](./[44]_OrderService_CatalogService_Kafka_Topics/index.md)
 
-[[45]_Multi OrderService Data Sync](./[45]_Multi_OrderService_Data_Sync/index.md)
+[[45] Multi OrderService Data Sync](./[45]_Multi_OrderService_Data_Sync/index.md)
+
+[[46] CircuitBreaker_Resilience4j](./[46]_CircuitBreaker_Resilience4j/index.md)
 
