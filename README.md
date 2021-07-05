@@ -92,3 +92,5 @@
 
 [[46] CircuitBreaker_Resilience4j](./[46]_CircuitBreaker_Resilience4j/index.md)
 
+[[47] Zipkin](./[47]_Zipkin/index.md)
+
