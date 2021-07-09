@@ -94,3 +94,5 @@
 
 [[47] Zipkin](./[47]_Zipkin/index.md)
 
+[[48] Micrometer](./[48]_Micrometer/index.md)
+

@@ -79,3 +79,19 @@ P
  [24]_User_Service_Login/index.md,c/4/c42ac3ca04f3705fe7a781258c4800da7740630b
 N
 [25]_User_Service_Jwt/index.md,3/a/3a71285cfcc96172d8506e97e1e26413e60e26a5
+Q
+![40]_아파치_카프카/index.md,c/d/cdc1366409ee0ab7b603d6b1f8666c44f3dea2e6
+Z
+*[45]_Multi_OrderService_Data_Sync/index.md,c/5/c50877488d7b5523687a1f71276b3456c2f3e956
+f
+6[44]_OrderService_CatalogService_Kafka_Topics/index.md,1/c/1c23c2fe1b3c0271a76627e424ee1b43c5e9cf1c
+P
+ [43]_Kafka_Sink_Connect/index.md,9/b/9b5b6f01e2a97076cc7d9cf6fa4224feb5c20cce
+R
+"[42]_Kafka_Source_Connect/index.md,b/2/b2b834fed6c0640a3f2cbde30e85aee687911613
+M
+[41]_Kafka_Connector/index.md,2/8/28094e24b051446af24e9be771dd65d58c09bba7
+Y
+)[46]_CircuitBreaker_Resilience4j/index.md,e/9/e9158ab4a39ffdf3e1b532e86f55a7566418548c
+D
+[47]_Zipkin/index.md,5/6/5655752e7a6441717fb0704f439ac42ae332096f
