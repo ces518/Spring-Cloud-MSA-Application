@@ -104,3 +104,5 @@
 
 [[52] 컨테이너 생성 실행](./[52]_컨테이너_생성_실행/index.md)
 
+[[53] Docker 이미지 생성 Public Registry Push](./[53]_Docker_이미지_생성_Public_Registry_Push/index.md)
+
