@@ -72,9 +72,9 @@
 
 [[36] Communication Types](./[36]_Communication_Types/index.md)
 
-[[37]_RestTemplate](./[37]_RestTemplate/index.md)
+[[37] RestTemplate](./[37]_RestTemplate/index.md)
 
-[[38]_FeignClient](./[38]_FeignClient/index.md)
+[[38] FeignClient](./[38]_FeignClient/index.md)
 
 [[39] 데이터 동기화 문제](./[39]_데이터_동기화_문제/index.md)
 
@@ -101,4 +101,6 @@
 [[50] 컨테이너 가상화](./[50]_컨테이너_가상화/index.md)
 
 [[51] 도커](./[51]_도커/index.md)
+
+[[52] 컨테이너 생성 실행](./[52]_컨테이너_생성_실행/index.md)
 
