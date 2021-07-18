@@ -114,3 +114,5 @@
 
 [[57] Docker Discovery Service](./[57]_Docker_Discovery_Service/index.md)
 
+[[58] Docker ApiGateway Service](./[58]_Docker_APIGateway_Service/index.md)
+
