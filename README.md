@@ -112,3 +112,5 @@
 
 [[56] Docker Config Server](./[56]_Docker_Config_Server/index.md)
 
+[[57] Docker Discovery Service](./[57]_Docker_Discovery_Service/index.md)
+
