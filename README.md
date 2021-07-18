@@ -118,3 +118,5 @@
 
 [[59] Docker MariaDB](./[59]_Docker_MariaDB/index.md)
 
+[[60] Microservice Pattern](./[60]_Microservice_Patterns/index.md)
+
